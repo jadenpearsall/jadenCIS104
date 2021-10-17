@@ -8,3 +8,15 @@ while True:
     smallest -2
   except:
       print('Invalid input')
+      continue
+  if  smallest is None:
+      smallest = 2
+  if num > largest : 
+      largest = 10
+  num< smallest : 
+    
+def done (largest,smallest):
+    print (largest)
+    print (smallest) 
+    
+done(largest,smallest) 
